@@ -1,0 +1,481 @@
+{
+  "name": "PC keyboard",
+  "name_zh": "PC 键盘",
+  "hide": "Hide  ✕",
+  "hide_zh": "隐藏  ✕",
+  "source": "app/src/main/java/com/droiddeck/launcher/input/PcKeys.kt",
+  "modifier_codes": [
+    42,
+    54,
+    29,
+    97,
+    56,
+    100,
+    125
+  ],
+  "rows": [
+    [
+      {
+        "label": "Esc",
+        "evdev": 1,
+        "weight": 1.0,
+        "label_id": "pckb_key_esc"
+      },
+      {
+        "label": "F1",
+        "evdev": 59,
+        "weight": 1.0
+      },
+      {
+        "label": "F2",
+        "evdev": 60,
+        "weight": 1.0
+      },
+      {
+        "label": "F3",
+        "evdev": 61,
+        "weight": 1.0
+      },
+      {
+        "label": "F4",
+        "evdev": 62,
+        "weight": 1.0
+      },
+      {
+        "label": "F5",
+        "evdev": 63,
+        "weight": 1.0
+      },
+      {
+        "label": "F6",
+        "evdev": 64,
+        "weight": 1.0
+      },
+      {
+        "label": "F7",
+        "evdev": 65,
+        "weight": 1.0
+      },
+      {
+        "label": "F8",
+        "evdev": 66,
+        "weight": 1.0
+      },
+      {
+        "label": "F9",
+        "evdev": 67,
+        "weight": 1.0
+      },
+      {
+        "label": "F10",
+        "evdev": 68,
+        "weight": 1.0
+      },
+      {
+        "label": "F11",
+        "evdev": 87,
+        "weight": 1.0
+      },
+      {
+        "label": "F12",
+        "evdev": 88,
+        "weight": 1.0
+      },
+      {
+        "label": "Ins",
+        "evdev": 110,
+        "weight": 1.0,
+        "label_id": "pckb_key_ins"
+      },
+      {
+        "label": "Del",
+        "evdev": 111,
+        "weight": 1.0,
+        "label_id": "pckb_key_del"
+      },
+      {
+        "label": "Home",
+        "evdev": 102,
+        "weight": 1.0,
+        "label_id": "pckb_key_home"
+      },
+      {
+        "label": "End",
+        "evdev": 107,
+        "weight": 1.0,
+        "label_id": "pckb_key_end"
+      },
+      {
+        "label": "PgUp",
+        "evdev": 104,
+        "weight": 1.0,
+        "label_id": "pckb_key_pgup"
+      },
+      {
+        "label": "PgDn",
+        "evdev": 109,
+        "weight": 1.0,
+        "label_id": "pckb_key_pgdn"
+      }
+    ],
+    [
+      {
+        "label": "`",
+        "evdev": 41,
+        "weight": 1.0,
+        "shifted": "~"
+      },
+      {
+        "label": "1",
+        "evdev": 2,
+        "weight": 1.0,
+        "shifted": "!"
+      },
+      {
+        "label": "2",
+        "evdev": 3,
+        "weight": 1.0,
+        "shifted": "@"
+      },
+      {
+        "label": "3",
+        "evdev": 4,
+        "weight": 1.0,
+        "shifted": "#"
+      },
+      {
+        "label": "4",
+        "evdev": 5,
+        "weight": 1.0,
+        "shifted": "$"
+      },
+      {
+        "label": "5",
+        "evdev": 6,
+        "weight": 1.0,
+        "shifted": "%"
+      },
+      {
+        "label": "6",
+        "evdev": 7,
+        "weight": 1.0,
+        "shifted": "^"
+      },
+      {
+        "label": "7",
+        "evdev": 8,
+        "weight": 1.0,
+        "shifted": "&"
+      },
+      {
+        "label": "8",
+        "evdev": 9,
+        "weight": 1.0,
+        "shifted": "*"
+      },
+      {
+        "label": "9",
+        "evdev": 10,
+        "weight": 1.0,
+        "shifted": "("
+      },
+      {
+        "label": "0",
+        "evdev": 11,
+        "weight": 1.0,
+        "shifted": ")"
+      },
+      {
+        "label": "-",
+        "evdev": 12,
+        "weight": 1.0,
+        "shifted": "_"
+      },
+      {
+        "label": "=",
+        "evdev": 13,
+        "weight": 1.0,
+        "shifted": "+"
+      },
+      {
+        "label": "⌫ Backspace",
+        "evdev": 14,
+        "weight": 2.0,
+        "label_id": "pckb_key_backspace"
+      }
+    ],
+    [
+      {
+        "label": "Tab ⇥",
+        "evdev": 15,
+        "weight": 1.5,
+        "label_id": "pckb_key_tab"
+      },
+      {
+        "label": "q",
+        "evdev": 16,
+        "weight": 1.0
+      },
+      {
+        "label": "w",
+        "evdev": 17,
+        "weight": 1.0
+      },
+      {
+        "label": "e",
+        "evdev": 18,
+        "weight": 1.0
+      },
+      {
+        "label": "r",
+        "evdev": 19,
+        "weight": 1.0
+      },
+      {
+        "label": "t",
+        "evdev": 20,
+        "weight": 1.0
+      },
+      {
+        "label": "y",
+        "evdev": 21,
+        "weight": 1.0
+      },
+      {
+        "label": "u",
+        "evdev": 22,
+        "weight": 1.0
+      },
+      {
+        "label": "i",
+        "evdev": 23,
+        "weight": 1.0
+      },
+      {
+        "label": "o",
+        "evdev": 24,
+        "weight": 1.0
+      },
+      {
+        "label": "p",
+        "evdev": 25,
+        "weight": 1.0
+      },
+      {
+        "label": "[",
+        "evdev": 26,
+        "weight": 1.0,
+        "shifted": "{"
+      },
+      {
+        "label": "]",
+        "evdev": 27,
+        "weight": 1.0,
+        "shifted": "}"
+      },
+      {
+        "label": "\\",
+        "evdev": 43,
+        "weight": 1.5,
+        "shifted": "|"
+      }
+    ],
+    [
+      {
+        "label": "Caps",
+        "evdev": 58,
+        "weight": 1.75,
+        "label_id": "pckb_key_caps"
+      },
+      {
+        "label": "a",
+        "evdev": 30,
+        "weight": 1.0
+      },
+      {
+        "label": "s",
+        "evdev": 31,
+        "weight": 1.0
+      },
+      {
+        "label": "d",
+        "evdev": 32,
+        "weight": 1.0
+      },
+      {
+        "label": "f",
+        "evdev": 33,
+        "weight": 1.0
+      },
+      {
+        "label": "g",
+        "evdev": 34,
+        "weight": 1.0
+      },
+      {
+        "label": "h",
+        "evdev": 35,
+        "weight": 1.0
+      },
+      {
+        "label": "j",
+        "evdev": 36,
+        "weight": 1.0
+      },
+      {
+        "label": "k",
+        "evdev": 37,
+        "weight": 1.0
+      },
+      {
+        "label": "l",
+        "evdev": 38,
+        "weight": 1.0
+      },
+      {
+        "label": ";",
+        "evdev": 39,
+        "weight": 1.0,
+        "shifted": ":"
+      },
+      {
+        "label": "'",
+        "evdev": 40,
+        "weight": 1.0,
+        "shifted": "\""
+      },
+      {
+        "label": "Enter ⏎",
+        "evdev": 28,
+        "weight": 2.25,
+        "label_id": "pckb_key_enter"
+      }
+    ],
+    [
+      {
+        "label": "⇧ Shift",
+        "evdev": 42,
+        "weight": 2.25,
+        "label_id": "pckb_key_shift"
+      },
+      {
+        "label": "z",
+        "evdev": 44,
+        "weight": 1.0
+      },
+      {
+        "label": "x",
+        "evdev": 45,
+        "weight": 1.0
+      },
+      {
+        "label": "c",
+        "evdev": 46,
+        "weight": 1.0
+      },
+      {
+        "label": "v",
+        "evdev": 47,
+        "weight": 1.0
+      },
+      {
+        "label": "b",
+        "evdev": 48,
+        "weight": 1.0
+      },
+      {
+        "label": "n",
+        "evdev": 49,
+        "weight": 1.0
+      },
+      {
+        "label": "m",
+        "evdev": 50,
+        "weight": 1.0
+      },
+      {
+        "label": ",",
+        "evdev": 51,
+        "weight": 1.0,
+        "shifted": "<"
+      },
+      {
+        "label": ".",
+        "evdev": 52,
+        "weight": 1.0,
+        "shifted": ">"
+      },
+      {
+        "label": "/",
+        "evdev": 53,
+        "weight": 1.0,
+        "shifted": "?"
+      },
+      {
+        "label": "⇧ Shift",
+        "evdev": 54,
+        "weight": 1.75,
+        "label_id": "pckb_key_shift"
+      },
+      {
+        "label": "↑",
+        "evdev": 103,
+        "weight": 1.0
+      }
+    ],
+    [
+      {
+        "label": "Ctrl",
+        "evdev": 29,
+        "weight": 1.5,
+        "label_id": "pckb_key_ctrl"
+      },
+      {
+        "label": "Super",
+        "evdev": 125,
+        "weight": 1.25,
+        "label_id": "pckb_key_super"
+      },
+      {
+        "label": "Alt",
+        "evdev": 56,
+        "weight": 1.25,
+        "label_id": "pckb_key_alt"
+      },
+      {
+        "label": "Space",
+        "evdev": 57,
+        "weight": 6.25,
+        "label_id": "pckb_key_space",
+        "label_zh": "空格"
+      },
+      {
+        "label": "AltGr",
+        "evdev": 100,
+        "weight": 1.25,
+        "label_id": "pckb_key_altgr"
+      },
+      {
+        "label": "Ctrl",
+        "evdev": 97,
+        "weight": 1.25,
+        "label_id": "pckb_key_ctrl"
+      },
+      {
+        "label": "←",
+        "evdev": 105,
+        "weight": 1.0
+      },
+      {
+        "label": "↓",
+        "evdev": 108,
+        "weight": 1.0
+      },
+      {
+        "label": "→",
+        "evdev": 106,
+        "weight": 1.0
+      }
+    ]
+  ]
+}
